@@ -1,5 +1,3 @@
-import 'package:dart_playground/week_1_dar_basics/regra_de_tres.dart';
-import 'package:dart_playground/week_1_dar_basics/sequencia_fibonaci.dart';
 import 'package:dart_playground/week_1_dar_basics/validacao_cartao.dart';
 
 void main() {
