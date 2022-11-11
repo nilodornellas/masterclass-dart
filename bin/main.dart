@@ -8,5 +8,5 @@ void main() {
   RegraDeTres().regraDeTres(a: 10, b: 50, c: 20);
   ValidacaoCartao().validacaoCartaoDeCredito();
   final valido = ValidacaoCpf().validarCpf('123.139.144-88');
-  print(valido ? 'CPF é válido' : 'CPF é inválido');
+  print(valido ? 'CPF está válido' : 'CPF está inválido');
 }
