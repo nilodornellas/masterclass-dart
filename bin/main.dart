@@ -11,7 +11,6 @@ void main() {
   ValidacaoCartao().validacaoCartaoDeCredito();
   final valido = ValidacaoCpf().validarCpf('123.139.144-88');
   print(valido ? 'CPF está válido' : 'CPF está inválido');
-  // var dotEnv = DotEnv();
-  // dotEnv.lerArquivo();
+  DotEnv().lerArquivo();
   AlgoritimoLerp().calcularLerp(begin: 20, end: 40, percent:80);
 }
